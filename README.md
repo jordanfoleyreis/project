@@ -1,2 +1,2 @@
-# project-name
-Project: Jordan Foley-Reis 
+# Projects
+By Jordan Foley-Reis 
