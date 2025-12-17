@@ -1,24 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Power BI Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Your Name | Power BI Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
-        body { font-family: Arial; margin: 40px; }
-        h1 { color: #333; }
-        .project { margin-bottom: 50px; }
-        iframe { border: none; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f6f8;
+            color: #333;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .about {
+            line-height: 1.6;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #2563eb;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .links a {
+            margin: 0 10px;
+        }
     </style>
 </head>
 <body>
 
-<h1>My Power BI Portfolio</h1>
-<p>Welcome! Below are my Power BI projects showcasing data analysis and visualization skills.</p>
+<header>
+    <h1>Your Name</h1>
+    <p>Power BI Analyst | Data Visualization | Business Insights</p>
+</header>
 
-<div class="project">
-    <h2>Sales Performance Dashboard</h2>
-    <p>Analyzed sales trends, KPIs, and regional performance.</p>
-    <!-- Power BI embed goes here -->
-</div>
+<section>
+    <h2>About Me</h2>
+    <p class="about">
+        I am an aspiring Power BI Analyst with a strong interest in transforming data 
+        into actionable insights. I focus on creating clean, interactive dashboards 
+        that support data-driven decision-making.
+    </p>
+</section>
 
-</body>
-</html>
+<section>
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>Sales Performance Dashboard</h3>
+            <p>Interactive Power BI dashboard analyzing revenue, growth, and KPIs.</p>
+            <span class="tag">Coming Soon</span>
+        </div>
+
+        <div class="card">
+            <h3>Customer Analysis</h3>
+            <p>Insights into customer behavior, churn, and segmentation.</p>
+            <span class="tag">Coming Soon</span>
+        </div>
+
+        <div class="card">
+            <h3>Financial Overview</h3>
+            <p>Tracking profitability, expenses, and financial trends.</p>
+            <span class="tag">Coming Soon</span>
